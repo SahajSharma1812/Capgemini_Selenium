@@ -1,0 +1,10 @@
+Python is a unit testing framework.The rules are:
+1) File name should start with 'test_'
+2) Functions and method name should also start with 'test'
+3) Class name should start with 'Test'
+When we use these rules Pytest recognizes the files, functions, and classes using said rules. So, without giving a
+function call we can execute a test function, and without creating an object we can test the test class.
+-v -> verbosity. It gives the detailed description of the code.
+-s -> scripting. It will print all the print statements.
+* Pytest cannot recognize the functions that aren't using said rules.
+In case of test classes, we need not create objects and call the functions. If we do so, execution would happen twice.
