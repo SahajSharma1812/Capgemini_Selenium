@@ -1,0 +1,11 @@
+{
+    "valid_user": {
+        "email": "ajsahajsharma@gmail.com",
+        "password": "1234567890987654321",
+        "role": "SHOPPER"
+    },
+    "invalid_user": {
+        "email": "wrong@email.com",
+        "password": "wrongpass"
+    }
+}
